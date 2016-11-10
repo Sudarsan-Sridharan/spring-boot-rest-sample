@@ -6,8 +6,8 @@ The project will create some sample data at startup if it does not already exist
 ## Configuration
 The project supports the following configuration options which can be configured via spring boot.  These properties reside in application.properties.
 
-*app.media.uploadFolder: Sets the uploadFolder. By default this is relative to the run directory
-*app.media.useUUID: If true the application will replace the file name with a uuid.
+* app.media.uploadFolder: Sets the uploadFolder. By default this is relative to the run directory
+* app.media.useUUID: If true the application will replace the file name with a uuid.
 
 ## Considerations
 The application lacks many features expected in production, such as rate limiting, caching etc. 
